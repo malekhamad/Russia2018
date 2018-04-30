@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "546049558322",
+    "firebase_url": "https://russia-2018-a805b.firebaseio.com",
+    "project_id": "russia-2018-a805b",
+    "storage_bucket": "russia-2018-a805b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546049558322:android:669c1b0173173306",
+        "android_client_info": {
+          "package_name": "com.sport.malek.russia2018"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "546049558322-hr6inbf02gs00n3llkmjb3dntlndp52u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sport.malek.russia2018",
+            "certificate_hash": "af81995a7e9aeda22712c4d7d950f9bebc957f35"
+          }
+        },
+        {
+          "client_id": "546049558322-kj46fe339gdgo0f8ju41dcb6c81ld3gj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACBu9CRif2ljCKF-vbYsPXSnhyVB531qI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "546049558322-kj46fe339gdgo0f8ju41dcb6c81ld3gj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

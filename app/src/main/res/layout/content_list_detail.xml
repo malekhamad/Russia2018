@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@+id/adView2"
+    android:background="#4f2fc2"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.sport.malek.russia2018.Team_Information"
+    tools:showIn="@layout/activity_list_detail">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/text_margin"
+        android:layout_marginTop="@dimen/text_margin"
+        android:layout_marginBottom="1dp"
+        android:text="Argentina"
+        android:layout_gravity="start"
+        android:textSize="30sp"
+        android:id="@+id/flagtext"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="start"
+        android:layout_marginStart="16dp"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_margin="1dp"
+            android:id="@+id/win1"
+            android:layout_marginStart="16dp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_margin="1dp"
+            android:id="@+id/win2"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_margin="1dp"
+            android:id="@+id/win3" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:id="@+id/win4"
+            android:layout_margin="1dp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_margin="1dp"
+            android:id="@+id/win5"
+            />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginBottom="@dimen/text_margin"
+        android:layout_marginEnd="@dimen/text_margin"
+        android:layout_marginStart="@dimen/text_margin"
+        android:gravity="start"
+        android:text="@string/bra_description"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="50sp"
+    android:background="#210976"
+    android:text="@string/information"
+    android:textSize="30sp"
+    android:textColor="#ffffff"
+    android:textStyle="italic"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:gravity="center_vertical"
+    android:paddingStart="16dp"
+    android:fontFamily="serif"
+    />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ranking"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:layout_gravity="start"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:id="@+id/rank"
+            android:textSize="18sp"
+            android:layout_gravity="start"
+            android:textColor="#ffffff"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/share_in_world_cup"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:layout_gravity="start"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:textSize="18sp"
+            android:id="@+id/appearance"
+            android:layout_gravity="start"
+            android:textColor="#ffffff"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/final_match"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:layout_gravity="start"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="18sp"
+            android:id="@+id/finals"
+            android:layout_gravity="start"
+            android:textColor="#ffffff"
+            />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:background="#210976"
+        android:text="@string/top_player"
+        android:textStyle="italic"
+        android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center_vertical"
+        android:paddingStart="16dp"
+        android:fontFamily="serif"
+        />
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:textSize="18sp"
+        android:id="@+id/bestPlayer"
+        android:gravity="start"
+        android:text="@string/arg_players"
+        android:textColor="#ffffff"
+        android:layout_marginStart="@dimen/text_margin"
+        android:layout_marginBottom="70dp"
+        android:layout_marginEnd="@dimen/text_margin"
+        />
+
+
+
+
+</LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

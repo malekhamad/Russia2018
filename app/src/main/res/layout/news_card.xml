@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:id="@+id/cardNews"
+    xmlns:cardView="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="2dp"
+    cardView:cardCornerRadius="10dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="6"
+    android:id="@+id/imageNews"
+    android:background="@drawable/back1"
+    android:scaleType="centerCrop"
+    />
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/textNews"
+    android:layout_weight=".5"
+    android:textColor="#000000"
+    android:textSize="15sp"
+    android:textStyle="bold"
+    android:padding="7dp"
+    android:text="Russia 2018"
+    android:fontFamily="monospace"
+    android:gravity="start"
+    />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="wednesday 4:30"
+            android:id="@+id/textdate"
+            android:padding="7dp"
+            android:gravity="start"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Unkown"
+            android:id="@+id/textsource"
+            android:padding="7dp"
+            android:gravity="end"
+            />
+
+    </LinearLayout>
+</LinearLayout>
+
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sport.malek.russia2018">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/llll"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.sport.malek.russia2018.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.sport.malek.russia2018.ChooseTeam" />
+        <activity
+            android:name="com.sport.malek.russia2018.ProfileActivity"
+            android:label="@string/title_activity_profile"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.sport.malek.russia2018.tabbed_group_team"
+            android:label="@string/title_activity_tabbed_group_team"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ItemListActivity"
+            android:label="@string/title_item_list"
+            android:theme="@style/AppTheme" />
+        <activity android:name="com.sport.malek.russia2018.News_Detail">
+            <intent-filter>
+                <data android:mimeType="image/*" />
+
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <action android:name="android.intent.action.SEND_MULTIPLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sport.malek.russia2018.Team_Information"
+            android:label="@string/title_activity_list_detail"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.sport.malek.russia2018.Matches"
+            android:label="@string/title_activity_matches"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".SettingActivitys" />
+        <activity android:name=".listLanguge" />
+        <activity android:name=".ChooseLanguage"></activity>
+
+    </application>
+
+</manifest>
